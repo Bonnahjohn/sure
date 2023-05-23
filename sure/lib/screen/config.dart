@@ -48,7 +48,83 @@ List<Product> products = [
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Strawberry ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Blueberry',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Raspberry',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Blackberry',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Kiwi ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Lemon',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Lime ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Watermelon',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Papaya',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Pear ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Peach ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Plum ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Cherry ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Apricot',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Avocado',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Fig ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Pomegranate',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Passionfruit',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Grapefruit ',
+  ),
+  Product(
+    image: 'assets/images/fast.png',
+    title: 'Cantaloupe',
   ),
   Product(
     image: 'assets/images/fast.png',
@@ -56,122 +132,78 @@ List<Product> products = [
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Honeydew melon',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Persimmon ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Jackfruit ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Lychee ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Cranberry ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Elderberry',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Date ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Tangerine ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Raspberry',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Boysenberry',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Apple',
+    title: 'Nectarine',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Pineapple',
+    title: 'Quince',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Coconut',
+    title: 'Ackee ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Tomatoes',
+    title: 'Lychee ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Grapes',
+    title: 'Dragon fruit',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Orange',
+    title: 'Star fruit',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Pawpaw',
+    title: 'Kiwifruit ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Breadfruit ',
   ),
   Product(
     image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
+    title: 'Persimmon',
   )
 ];

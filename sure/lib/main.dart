@@ -90,7 +90,7 @@ class _MyAppState extends State<MyApp> {
                       : ListView.builder(
                           itemCount: findMe.length,
                           itemBuilder: (context, index) => Card(
-                                color: Color.fromRGBO(26, 192, 196, 1),
+                                elevation: 3,
                                 child: ListTile(
                                   leading: Image.asset(findMe[index].image),
                                   title: Text(findMe[index].title),

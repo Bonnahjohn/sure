@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
                       fillColor: Colors.white),
                 )
               : Text(
-                  'Search Your Fruit',
+                  'Search For Your Fruit',
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
           actions: [

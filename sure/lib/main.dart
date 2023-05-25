@@ -94,7 +94,7 @@ class _MyAppState extends State<MyApp> {
                                 child: ListTile(
                                   leading: Image.asset(findMe[index].image),
                                   title: Text(findMe[index].title),
-                                  subtitle: Text(findMe[index].title),
+                                  subtitle: Text(findMe[index].science),
                                 ),
                               ))),
             ],

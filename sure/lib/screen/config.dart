@@ -1,209 +1,62 @@
 // ignore_for_file: non_constant_identifier_names
 
-import 'package:flutter/material.dart';
-
 class Product {
   late String image, title, science;
-  late int price, size;
-  late Color color;
-  Product({
-    //required this.science
-    required this.image,
-    required this.title,
-  });
+
+  Product({required this.image, required this.title, required this.science});
 }
 
 List<Product> products = [
+  Product(image: 'assets/images/apple.png', title: 'Apple', science: 'jj'),
   Product(
-    image: 'assets/images/fast.png',
-    title: 'Apple',
-  ),
+      image: 'assets/images/pineapple.png', title: 'Pineapple', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Coconut', science: 'jj'),
+  Product(image: 'assets/images/mango.png', title: 'Mango', science: 'jj'),
+  Product(image: 'assets/images/grapes.png', title: 'Grapes', science: 'jj'),
+  Product(image: 'assets/images/orange.png', title: 'Orange', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Pawpaw', science: 'jj'),
+  Product(image: 'assets/images/guava.png', title: 'Guava', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Strawberry ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Blueberry', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Raspberry', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Blackberry', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Kiwi ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Lemon', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Lime ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Watermelon', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Papaya', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Pear ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Peach ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Plum ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Cherry ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Apricot', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Avocado', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Fig ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Pomegranate', science: 'jj'),
   Product(
-    image: 'assets/images/fast.png',
-    title: 'Pineapple',
-  ),
+      image: 'assets/images/fast.png', title: 'Passionfruit', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Grapefruit ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Cantaloupe', science: 'jj'),
+  Product(image: 'assets/images/banana.png', title: 'Banana', science: 'jj'),
   Product(
-    image: 'assets/images/fast.png',
-    title: 'Coconut',
-  ),
+      image: 'assets/images/fast.png', title: 'Honeydew melon', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Persimmon ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Jackfruit ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Lychee ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Cranberry ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Elderberry', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Date ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Tangerine ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Raspberry', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Boysenberry', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Nectarine', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Quince', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Ackee ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Lychee ', science: 'jj'),
   Product(
-    image: 'assets/images/fast.png',
-    title: 'Mango',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Grapes',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Orange',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Pawpaw',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Strawberry ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Blueberry',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Raspberry',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Blackberry',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Kiwi ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Lemon',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Lime ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Watermelon',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Papaya',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Pear ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Peach ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Plum ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Cherry ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Apricot',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Avocado',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Fig ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Pomegranate',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Passionfruit',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Grapefruit ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Cantaloupe',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Guava',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Honeydew melon',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Persimmon ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Jackfruit ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Lychee ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Cranberry ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Elderberry',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Date ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Tangerine ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Raspberry',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Boysenberry',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Nectarine',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Quince',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Ackee ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Lychee ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Dragon fruit',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Star fruit',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Kiwifruit ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Breadfruit ',
-  ),
-  Product(
-    image: 'assets/images/fast.png',
-    title: 'Persimmon',
-  )
+      image: 'assets/images/fast.png', title: 'Dragon fruit', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Star fruit', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Kiwifruit ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Breadfruit ', science: 'jj'),
+  Product(image: 'assets/images/fast.png', title: 'Persimmon', science: 'jj')
 ];

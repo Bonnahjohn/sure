@@ -16,10 +16,6 @@ List<Product> products = [
       title: 'Pineapple',
       science: 'Ananas comosus'),
   Product(
-      image: 'assets/images/fast.png',
-      title: 'Coconut',
-      science: 'Cocos nucifera'),
-  Product(
       image: 'assets/images/mango.png',
       title: 'Mango',
       science: 'Mangifera indica'),
@@ -32,163 +28,73 @@ List<Product> products = [
       title: 'Orange',
       science: 'Citrus sinensis'),
   Product(
-      image: 'assets/images/fast.png',
-      title: 'Pawpaw',
-      science: 'Asimina triloba'),
-  Product(
       image: 'assets/images/guava.png',
       title: 'Guava',
       science: 'Psidium guajava'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/strawberry.png',
       title: 'Strawberry ',
       science: 'Fragaria × ananassa'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/blueberry.png',
       title: 'Blueberry',
       science: 'Vaccinium corymbosum'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/raspberry-pi.png',
       title: 'Raspberry',
       science: 'Rubus idaeus'),
   Product(
-      image: 'assets/images/fast.png',
-      title: 'Blackberry',
-      science: 'Rubus fruticosus'),
-  Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/kiwi.png',
       title: 'Kiwi ',
       science: 'Actinidia deliciosa'),
   Product(
-      image: 'assets/images/fast.png', title: 'Lemon', science: 'Citrus limon'),
+      image: 'assets/images/lemon.png',
+      title: 'Lemon',
+      science: 'Citrus limon'),
   Product(
-      image: 'assets/images/fast.png',
-      title: 'Lime ',
-      science: 'Citrus aurantifolia'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Watermelon',
-      science: 'Citrullus lanatus'),
-  Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/papaya.png',
       title: 'Papaya',
       science: 'Carica papaya'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/pear.png',
       title: 'Pear ',
       science: 'Pyrus communis'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/peach.png',
       title: 'Peach ',
       science: 'Prunus persica'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/plum.png',
       title: 'Plum ',
       science: 'Prunus domestica'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/cherry.png',
       title: 'Cherry ',
       science: 'Prunus avium'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/apricote.png',
       title: 'Apricot',
       science: 'Prunus armeniaca'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/avocado.png',
       title: 'Avocado',
       science: 'Persea americana'),
   Product(
-      image: 'assets/images/fast.png', title: 'Fig ', science: 'Ficus carica'),
+      image: 'assets/images/fig.png', title: 'Fig ', science: 'Ficus carica'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/pomen.png',
       title: 'Pomegranate',
       science: 'Punica granatum'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/passion.png',
       title: 'Passionfruit',
       science: 'Passiflora edulis'),
   Product(
-      image: 'assets/images/fast.png',
+      image: 'assets/images/gra.png',
       title: 'Grapefruit ',
       science: 'Citrus paradisi'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Cantaloupe',
-      science: 'Cucumis melo'),
   Product(
       image: 'assets/images/banana.png',
       title: 'Banana',
       science: 'Musa paradisiaca'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Honeydew melon',
-      science: 'Cucumis melo'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Persimmon ',
-      science: 'Diospyros kaki'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Jackfruit ',
-      science: 'Artocarpus heterophyllus'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Lychee ',
-      science: 'Litchi chinensis'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Cranberry ',
-      science: 'Vaccinium macrocarpon'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Date ',
-      science: 'Phoenix dactylifera'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Tangerine ',
-      science: 'Citrus reticulata'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Raspberry',
-      science: 'Rubus idaeus'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Boysenberry',
-      science: 'Rubus ursinus x idaeus'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Nectarine',
-      science: 'Prunus persica var. nucipersica'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Quince',
-      science: 'Cydonia oblonga'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Ackee ',
-      science: 'Blighia sapida'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Lychee ',
-      science: 'Litchi chinensis'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Dragon fruit',
-      science: 'Hylocereus undatus'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Star fruit',
-      science: 'Averrhoa carambola'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Kiwifruit ',
-      science: 'Actinidia chinensis'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Breadfruit ',
-      science: 'Artocarpus altilis'),
-  Product(
-      image: 'assets/images/fast.png',
-      title: 'Persimmon',
-      science: 'Diospyros virginiana')
 ];
